@@ -938,15 +938,802 @@
 
     <div class="container">
       <h2>Centered Image</h2>
-      <p>Center an image by adding the utility classes .mx-auto (margin:auto) and .d-block (display:block) to the image:</p> 
-      <img src="images/paris.jpg" class="mx-auto d-block" style="width:50%"> 
+      <p>
+        Center an image by adding the utility classes .mx-auto (margin:auto) and
+        .d-block (display:block) to the image:
+      </p>
+      <img src="images/paris.jpg" class="mx-auto d-block" style="width: 50%" />
     </div>
 
-    <br><br>
+    <br /><br />
     <div class="container">
       <h2>Image</h2>
-      <p>The .img-fluid class makes the image scale nicely to the parent element (resize the browser window to see the effect):</p>
-      <img class="img-fluid" src="images/img_chania.jpg" alt="Chania" width="460" height="345"> 
+      <p>
+        The .img-fluid class makes the image scale nicely to the parent element
+        (resize the browser window to see the effect):
+      </p>
+      <img
+        class="img-fluid"
+        src="images/img_chania.jpg"
+        alt="Chania"
+        width="460"
+        height="345"
+      />
+    </div>
+
+    <br /><br />
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Bootstrap Tutorial</h1>
+        <p>
+          Bootstrap is the most popular HTML, CSS, and JS framework for
+          developing responsive, mobile-first projects on the web.
+        </p>
+      </div>
+      <p>This is some text.</p>
+      <p>This is another text.</p>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1>Bootstrap Tutorial</h1>
+        <p>
+          Bootstrap is the most popular HTML, CSS, and JS framework for
+          developing responsive, mobile-first projects on the web.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Alerts</h2>
+      <p>
+        Alerts are created with the .alert class, followed by a contextual color
+        classes:
+      </p>
+      <div class="alert alert-success">
+        <strong>Success!</strong> This alert box could indicate a successful or
+        positive action.
+      </div>
+      <div class="alert alert-info">
+        <strong>Info!</strong> This alert box could indicate a neutral
+        informative change or action.
+      </div>
+      <div class="alert alert-warning">
+        <strong>Warning!</strong> This alert box could indicate a warning that
+        might need attention.
+      </div>
+      <div class="alert alert-danger">
+        <strong>Danger!</strong> This alert box could indicate a dangerous or
+        potentially negative action.
+      </div>
+      <div class="alert alert-primary">
+        <strong>Primary!</strong> Indicates an important action.
+      </div>
+      <div class="alert alert-secondary">
+        <strong>Secondary!</strong> Indicates a slightly less important action.
+      </div>
+      <div class="alert alert-dark">
+        <strong>Dark!</strong> Dark grey alert.
+      </div>
+      <div class="alert alert-light">
+        <strong>Light!</strong> Light grey alert.
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Alert Links</h2>
+      <p>
+        Add the alert-link class to any links inside the alert box to create
+        "matching colored links".
+      </p>
+      <div class="alert alert-success">
+        <strong>Success!</strong> You should
+        <a href="#" class="alert-link">read this message</a>.
+      </div>
+      <div class="alert alert-info">
+        <strong>Info!</strong> You should
+        <a href="#" class="alert-link">read this message</a>.
+      </div>
+      <div class="alert alert-warning">
+        <strong>Warning!</strong> You should
+        <a href="#" class="alert-link">read this message</a>.
+      </div>
+      <div class="alert alert-danger">
+        <strong>Danger!</strong> You should
+        <a href="#" class="alert-link">read this message</a>.
+      </div>
+      <div class="alert alert-primary">
+        <strong>Primary!</strong> You should
+        <a href="#" class="alert-link">read this message</a>.
+      </div>
+      <div class="alert alert-secondary">
+        <strong>Secondary!</strong> You should
+        <a href="#" class="alert-link">read this message</a>.
+      </div>
+      <div class="alert alert-dark">
+        <strong>Dark!</strong> You should
+        <a href="#" class="alert-link">read this message</a>.
+      </div>
+      <div class="alert alert-light">
+        <strong>Light!</strong> You should
+        <a href="#" class="alert-link">read this message</a>.
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Alerts</h2>
+      <p>
+        The button with class="close" and data-dismiss="alert" is used to close
+        the alert box.
+      </p>
+      <p>
+        The alert-dismissible class adds some extra padding to the close button.
+      </p>
+      <div class="alert alert-success alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Success!</strong> This alert box could indicate a successful or
+        positive action.
+      </div>
+      <div class="alert alert-info alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Info!</strong> This alert box could indicate a neutral
+        informative change or action.
+      </div>
+      <div class="alert alert-warning alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Warning!</strong> This alert box could indicate a warning that
+        might need attention.
+      </div>
+      <div class="alert alert-danger alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Danger!</strong> This alert box could indicate a dangerous or
+        potentially negative action.
+      </div>
+      <div class="alert alert-primary alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Primary!</strong> Indicates an important action.
+      </div>
+      <div class="alert alert-secondary alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Secondary!</strong> Indicates a slightly less important action.
+      </div>
+      <div class="alert alert-dark alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Dark!</strong> Dark grey alert.
+      </div>
+      <div class="alert alert-light alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Light!</strong> Light grey alert.
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Animated Alerts</h2>
+      <p>
+        The .fade and .show classes adds a fading effect when closing the alert
+        message.
+      </p>
+      <div class="alert alert-success alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Success!</strong> This alert box could indicate a successful or
+        positive action.
+      </div>
+      <div class="alert alert-info alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Info!</strong> This alert box could indicate a neutral
+        informative change or action.
+      </div>
+      <div class="alert alert-warning alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Warning!</strong> This alert box could indicate a warning that
+        might need attention.
+      </div>
+      <div class="alert alert-danger alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Danger!</strong> This alert box could indicate a dangerous or
+        potentially negative action.
+      </div>
+      <div class="alert alert-primary alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Primary!</strong> Indicates an important action.
+      </div>
+      <div class="alert alert-secondary alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Secondary!</strong> Indicates a slightly less important action.
+      </div>
+      <div class="alert alert-dark alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Dark!</strong> Dark grey alert.
+      </div>
+      <div class="alert alert-light alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Light!</strong> Light grey alert.
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Button Styles</h2>
+      <button type="button" class="btn">Basic</button>
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-link">Link</button>
+    </div>
+
+    <div class="container">
+      <h2>Button Elements</h2>
+      <a href="#" class="btn btn-info" role="button">Link Button</a>
+      <button type="button" class="btn btn-info">Button</button>
+      <input type="button" class="btn btn-info" value="Input Button" />
+      <input type="submit" class="btn btn-info" value="Submit Button" />
+    </div>
+
+    <div class="container">
+      <h2>Button Outline</h2>
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-secondary">Secondary</button>
+      <button type="button" class="btn btn-outline-success">Success</button>
+      <button type="button" class="btn btn-outline-info">Info</button>
+      <button type="button" class="btn btn-outline-warning">Warning</button>
+      <button type="button" class="btn btn-outline-danger">Danger</button>
+      <button type="button" class="btn btn-outline-dark">Dark</button>
+      <button type="button" class="btn btn-outline-light text-dark">
+        Light
+      </button>
+    </div>
+
+    <div class="container">
+      <h2>Button Sizes</h2>
+      <button type="button" class="btn btn-primary btn-lg">Large</button>
+      <button type="button" class="btn btn-primary btn-md">Default</button>
+      <button type="button" class="btn btn-primary btn-sm">Small</button>
+    </div>
+
+    <div class="container">
+      <h2>Block Level Buttons</h2>
+      <button type="button" class="btn btn-primary btn-block">Button 1</button>
+      <button type="button" class="btn btn-success btn-block">Button 2</button>
+      <br />
+
+      <h2>Large Block Level Buttons</h2>
+      <button type="button" class="btn btn-primary btn-lg btn-block">
+        Button 1
+      </button>
+      <button type="button" class="btn btn-success btn-lg btn-block">
+        Button 2
+      </button>
+      <br />
+
+      <h2>Small Block Level Buttons</h2>
+      <button type="button" class="btn btn-primary btn-sm btn-block">
+        Button 1
+      </button>
+      <button type="button" class="btn btn-success btn-sm btn-block">
+        Button 2
+      </button>
+    </div>
+
+    <div class="container">
+      <h2>Button States</h2>
+      <button type="button" class="btn btn-primary">Primary Button</button>
+      <button type="button" class="btn btn-primary active">
+        Active Primary
+      </button>
+      <button type="button" class="btn btn-primary" disabled>
+        Disabled Primary
+      </button>
+      <a href="#" class="btn btn-primary disabled">Disabled Link</a>
+    </div>
+
+    <div class="container">
+      <h2>Spinner Buttons</h2>
+      <p>Add spinners to buttons:</p>
+                                            
+      <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>
+      </button>
+    
+      <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading..
+      </button>
+      
+      <button class="btn btn-primary" disabled>
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading..
+      </button>
+      
+      <button class="btn btn-primary" disabled>
+        <span class="spinner-grow spinner-grow-sm"></span>
+        Loading..
+      </button>
+    </div>
+
+    <div class="container">
+      <h2>Button Group</h2>
+      <p>The .btn-group class creates a button group:</p>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Button Groups Sizes</h2>
+      <p>Add class .btn-group-* to size all buttons in a button group.</p>
+      <h3>Large Buttons:</h3>
+      <div class="btn-group btn-group-lg">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+      </div>
+      <h3>Default Buttons:</h3>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+      </div>
+      <h3>Small Buttons:</h3>
+      <div class="btn-group btn-group-sm">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Vertical Button Group</h2>
+      <p>Use the .btn-group-vertical class to create a vertical button group:</p>
+      <div class="btn-group-vertical">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Nesting Button Groups</h2>
+      <p>Nest button groups to create dropdown menus:</p>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+          Sony
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Tablet</a>
+            <a class="dropdown-item" href="#">Smartphone</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Split Buttons</h2>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Sony</button>
+        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+          <span class="caret"></span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Tablet</a>
+          <a class="dropdown-item" href="#">Smartphone</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Vertical Button Group with Dropdown</h2>
+      <div class="btn-group-vertical">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Sony
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Tablet</a>
+            <a class="dropdown-item" href="#">Smartphone</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Button Group</h2>
+      <p>Button groups are "inline" by default, which makes them appear side by side when you have multiple groups:</p>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">BMW</button>
+        <button type="button" class="btn btn-primary">Mercedes</button>
+        <button type="button" class="btn btn-primary">Volvo</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Badges</h2>
+      <h1>Example heading <span class="badge badge-secondary">New</span></h1>
+      <h2>Example heading <span class="badge badge-secondary">New</span></h2>
+      <h3>Example heading <span class="badge badge-secondary">New</span></h3>
+      <h4>Example heading <span class="badge badge-secondary">New</span></h4>
+      <h5>Example heading <span class="badge badge-secondary">New</span></h5>
+      <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+    </div>
+
+    <div class="container">
+      <h2>Contextual Badges</h2>
+      <span class="badge badge-primary">Primary</span>
+      <span class="badge badge-secondary">Secondary</span>
+      <span class="badge badge-success">Success</span>
+      <span class="badge badge-danger">Danger</span>
+      <span class="badge badge-warning">Warning</span>
+      <span class="badge badge-info">Info</span>
+      <span class="badge badge-light">Light</span>
+      <span class="badge badge-dark">Dark</span>
+    </div>
+
+    <div class="container">
+      <h2>Pill Badges</h2>
+      <span class="badge badge-pill badge-primary">Primary</span>
+      <span class="badge badge-pill badge-secondary">Secondary</span>
+      <span class="badge badge-pill badge-success">Success</span>
+      <span class="badge badge-pill badge-danger">Danger</span>
+      <span class="badge badge-pill badge-warning">Warning</span>
+      <span class="badge badge-pill badge-info">Info</span>
+      <span class="badge badge-pill badge-light">Light</span>
+      <span class="badge badge-pill badge-dark">Dark</span>
+    </div>
+
+    <div class="container">
+      <h2>Badge inside a Button</h2>
+      <button type="button" class="btn btn-primary">
+        Messages <span class="badge badge-light">4</span>
+      </button>
+      <button type="button" class="btn btn-danger">
+        Notifications <span class="badge badge-light">7</span>
+      </button>
+    </div>
+
+    <div class="container">
+      <h2>Basic Progress Bar</h2>
+      <p>To create a default progress bar, add a .progress class to a container element and add the progress-bar class to its child element. Use the CSS width property to set the width of the progress bar:</p>
+      <div class="progress">
+        <div class="progress-bar" style="width:70%"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Progress Bar Height</h2>
+      <p>The height of the progress bar is 1rem (16px) by default. Use the CSS height property to change the height:</p> 
+      <div class="progress" style="height:10px">
+        <div class="progress-bar" style="width:40%;height:10px"></div>
+      </div>
+      <br>
+      <div class="progress" style="height:20px">
+        <div class="progress-bar" style="width:50%;height:20px"></div>
+      </div>
+      <br>
+      <div class="progress" style="height:30px">
+        <div class="progress-bar" style="width:60%;height:30px"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Progress Bar With Label</h2>
+      <div class="progress">
+        <div class="progress-bar" style="width:70%">70%</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Colored Progress Bars</h2>
+      <p>Use any of the contextual color classes to change the color of the progress bar:</p> 
+      <!-- Blue -->
+      <div class="progress">
+        <div class="progress-bar" style="width:10%"></div>
+      </div><br>
+    
+      <!-- Green -->
+      <div class="progress">
+        <div class="progress-bar bg-success" style="width:20%"></div>
+      </div><br>
+    
+      <!-- Turquoise -->
+      <div class="progress">
+        <div class="progress-bar bg-info" style="width:30%"></div>
+      </div><br>
+    
+      <!-- Orange -->
+      <div class="progress">
+         <div class="progress-bar bg-warning" style="width:40%"></div>
+      </div><br>
+    
+      <!-- Red -->
+      <div class="progress">
+        <div class="progress-bar bg-danger" style="width:50%"></div>
+      </div><br>
+    
+      <!-- White -->
+      <div class="progress border">
+        <div class="progress-bar bg-white" style="width:60%"></div>
+      </div><br>
+    
+      <!-- Grey -->
+      <div class="progress">
+        <div class="progress-bar bg-secondary" style="width:70%"></div>
+      </div><br>
+    
+      <!-- Light Grey -->
+      <div class="progress border">
+        <div class="progress-bar bg-light" style="width:80%"></div>
+      </div><br>
+    
+      <!-- Dark Grey -->
+      <div class="progress">
+        <div class="progress-bar bg-dark" style="width:90%"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Striped Progress Bars</h2>
+      <p>The .progress-bar-striped class adds stripes to the progress bars:</p> 
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped" style="width:30%"></div>
+      </div>
+      <br>
+      <div class="progress">
+        <div class="progress-bar bg-success progress-bar-striped" style="width:40%"></div>
+      </div>
+      <br>
+      <div class="progress">
+        <div class="progress-bar bg-info progress-bar-striped" style="width:50%"></div>
+      </div>
+      <br>
+      <div class="progress">
+        <div class="progress-bar bg-warning progress-bar-striped" style="width:60%"></div>
+      </div>
+      <br>
+      <div class="progress">
+        <div class="progress-bar bg-danger progress-bar-striped" style="width:70%"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Animated Progress Bar</h2>
+      <p>Add the .progress-bar-animated class to animate the progress bar:</p> 
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Multiple Progress Bars</h2>
+      <p>Create a stacked progress bar by placing multiple bars into the same div with class="progress":</p> 
+      <div class="progress">
+        <div class="progress-bar bg-success" style="width:40%">
+          Free Space
+        </div>
+        <div class="progress-bar bg-warning" style="width:10%">
+          Warning
+        </div>
+        <div class="progress-bar bg-danger" style="width:20%">
+          Danger
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Spinners</h2>
+      <p>To create a spinner/loader, use the <code>.spinner-border</code> class:</p>
+                                            
+      <div class="spinner-border"></div>
+    </div>
+
+    <div class="container">
+      <h2>Colored Spinners</h2>
+      <p>Use any <strong>text color utilites</strong> to add a color to the spinner:</p>
+                                            
+      <div class="spinner-border text-muted"></div>
+      <div class="spinner-border text-primary"></div>
+      <div class="spinner-border text-success"></div>
+      <div class="spinner-border text-info"></div>
+      <div class="spinner-border text-warning"></div>
+      <div class="spinner-border text-danger"></div>
+      <div class="spinner-border text-secondary"></div>
+      <div class="spinner-border text-dark"></div>
+      <div class="spinner-border text-light"></div>
+    </div>
+
+    <div class="container">
+      <h2>Growing Spinners</h2>
+      <p>Use the <code>.spinner-grow</code> class if you want the spinner/loader to grow instead of "spin":</p>
+                                            
+      <div class="spinner-grow text-muted"></div>
+      <div class="spinner-grow text-primary"></div>
+      <div class="spinner-grow text-success"></div>
+      <div class="spinner-grow text-info"></div>
+      <div class="spinner-grow text-warning"></div>
+      <div class="spinner-grow text-danger"></div>
+      <div class="spinner-grow text-secondary"></div>
+      <div class="spinner-grow text-dark"></div>
+      <div class="spinner-grow text-light"></div>
+    </div>
+
+    <div class="container">
+      <h2>Spinner Size</h2>
+      <p>Use <code>.spinner-border-sm</code> or <code>.spinner-grow-sm</code> to create a smaller spinner:</p>
+                                            
+      <div class="spinner-border spinner-border-sm"></div>
+      <div class="spinner-grow spinner-grow-sm"></div>
+    </div>
+
+    <div class="container">
+      <h2>Spinner Buttons</h2>
+      <p>Add spinners to buttons:</p>
+                                            
+      <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>
+      </button>
+    
+      <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading..
+      </button>
+      
+      <button class="btn btn-primary" disabled>
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading..
+      </button>
+      
+      <button class="btn btn-primary" disabled>
+        <span class="spinner-grow spinner-grow-sm"></span>
+        Loading..
+      </button>
+    </div>
+
+    <div class="container">
+      <h2>Pagination</h2>
+      <p>To create a basic pagination, add the .pagination class to an ul element. Then add the .page-item to each li element and a .page-link class to each link inside li:</p>                  
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <h2>Pagination - Active State</h2>
+      <p>Add class .active to let the user know which page he/she is on:</p>
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <h2>Pagination - Disabled State</h2>
+      <p>Add class .disabled if a page for some reason is disabled:</p>
+      <ul class="pagination">
+        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <h2>Pagination - Sizing</h2>
+      <p>Add class .pagination-lg for larger blocks or .pagination-sm for smaller blocks.</p>
+    
+      <p>Large:</p>
+      <ul class="pagination pagination-lg">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    
+      <p>Default:</p>
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    
+      <p>Small:</p>
+      <ul class="pagination pagination-sm">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <h2>Pagination</h2>
+      <p>Use utilitiy classes to change the alignment of the pagination:</p>                  
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+      </ul>
+      <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+      </ul>
+      <ul class="pagination justify-content-end">
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <h2>Breadcrumbs</h2>
+      <p>The .breadcrumb class indicates the current page's location within a navigational hierarchy:</p>                  
+      <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Photos</a></li>
+        <li class="breadcrumb-item"><a href="#">Summer 2017</a></li>
+        <li class="breadcrumb-item"><a href="#">Italy</a></li>
+        <li class="breadcrumb-item active">Rome</li>
+      </ul>
     </div>
   </body>
 </html>
